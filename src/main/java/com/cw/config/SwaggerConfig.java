@@ -36,8 +36,8 @@ public class SwaggerConfig {
 
 	    private ApiInfo apiInfo() {
 	        return new ApiInfoBuilder()
-	                .title("****平台接口api")        // 文档页标题
-	                .contact(new Contact("***",// 联系人信息
+	                .title("平台接口api")        // 文档页标题
+	                .contact(new Contact("大飞",// 联系人信息
 	                        "https://www.****.com",
 	                        "abc@***.com"))
 	                .description("专为****提供的api文档")  // 详细信息
