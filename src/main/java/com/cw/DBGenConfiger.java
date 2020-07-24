@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cw.common;
+package com.cw;
 
 import org.apache.commons.lang3.StringUtils;
 

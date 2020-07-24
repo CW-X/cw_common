@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.cw.common;
+package com.cw;
 
 import java.io.IOException;
 import java.util.ArrayList;
