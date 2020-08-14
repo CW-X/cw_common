@@ -29,8 +29,8 @@ public class CommonInterceptor extends HandlerInterceptorAdapter{
     public	boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
 		log.info("CommonInterceptor");
-		HandlerMethod m = (HandlerMethod)handler;
-		HttpServletRequest req = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getRequest();
+//		HandlerMethod m = (HandlerMethod)handler;
+//		HttpServletRequest req = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getRequest();
 		return true;
 	}
 
